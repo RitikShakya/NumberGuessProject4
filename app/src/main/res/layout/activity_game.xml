@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/lastguess"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#00BCD4"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:text="Your Last Guess"
+        android:textSize="20dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="#00BCD4"
+        android:gravity="center_horizontal"
+        android:text="Guessleft"
+        android:textSize="20dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/Guess"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="#00BCD4"
+        android:gravity="center_horizontal"
+        android:text="Enter Guess"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/guessenter"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_gravity="center"
+
+        />
+</LinearLayout>

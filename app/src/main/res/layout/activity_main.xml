@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="362dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@color/teal_200"
+        android:padding="10dp"
+        android:text="You can choose the number of digits . You will have 10 guesses to guess the correct answer!"
+        android:textSize="20dp" />
+
+    <RadioGroup
+
+        android:layout_width="265dp"
+        android:layout_height="159dp"
+        android:layout_gravity="center"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:id="@+id/twodigit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two Digit NUmber"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/threedigit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Three Digit Number"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/fourdigit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Four Digit Number"
+            android:textSize="20dp"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_margin="40dp"
+        android:background="@color/teal_200"/>
+
+</LinearLayout>
